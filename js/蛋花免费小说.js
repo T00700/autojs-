@@ -149,14 +149,14 @@ function FloatingCurrentAPP() {
 
 function handle() {
     sleep(4100);
-    id("aq_").waitFor();
+    text("我的").waitFor();
     clickNonClickableByBounds("(282,664,618,783)", 3, 330);
 
     if (id("efg").findOne(1600)) {
         clickNonClickable("#efg", 5, 600);
     } else {
-        click(device.width / 2 , device.height / 2 +190);
-        clickNonClickable("#efg", 5, 600);
+        click(device.width / 2 , device.height / 2 +390);
+        clickNonClickable("#efm", 5, 600);
     }
 
     sleep(2500);

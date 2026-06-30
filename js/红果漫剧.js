@@ -180,8 +180,9 @@ function BrushVideos(a, b) {
 
 
 function handle() {
-    id("gr2").waitFor();
-    clickNonClickable("#gr2", 5, 600);
+    text("我的").waitFor();
+    clickNonClickable("#d4", 5, 600);
+    clickNonClickable("#geg", 5, 600);
     for (i = 0; i < 55; i++) {
         sleep(65* 1000);
         BrushVideos(1, 1);
